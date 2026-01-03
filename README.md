@@ -1,5 +1,6 @@
+<img width="256" height="256" alt="SofaTale" src="Assets\asets\SofaTale.png" style="float: right; scale:0.5; " />
+
 # PozitiTale
-<img width="256" height="256" alt="SofaTale" src="https://github.com/user-attachments/assets/615d8873-4900-404f-b0c8-a6ea1fc38f96" style="float: right; scale:0.5;" />
 
 ## Задачи
 - [x] Главное меню
