@@ -16,6 +16,7 @@ public class ButtonControl : MonoBehaviour
         updateScreenText(!Screen.fullScreen);
     }
     public void Back() {
+        Vareables.saveData();
         setings.SetActive(false);
         buttons.SetActive(true);
     }
