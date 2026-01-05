@@ -8,8 +8,8 @@ public class ButtonControl : MonoBehaviour
     public GameObject setings, buttons;
     public Text screenText;
 
-    public void Play() { SceneManager.LoadScene("Play"); }
-    public void NewGame() { SceneManager.LoadScene("NewGame"); }
+    public void Play() { SceneManager.LoadScene("Game"); }
+    public void NewGame() { SceneManager.LoadScene("Comics"); }
     public void Setings() {
         setings.SetActive(true);
         buttons.SetActive(false);
