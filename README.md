@@ -1,6 +1,6 @@
 # PozitiTale
 <img width="256" height="256" alt="SofaTale" 
-src="Assets\asets\SofaTale.png" />
+src="Assets\Assets\SofaTale.png" />
 
 ## Подход к разработке
 1. Не лезьте в чужой код (не редактировать самостоятельно)
