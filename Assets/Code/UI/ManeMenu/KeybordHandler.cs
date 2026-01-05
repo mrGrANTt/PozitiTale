@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class KeybordHandler : MonoBehaviour
-{ //https://www.youtube.com/watch?v=kP7BawiCCZU
+{ 
     public ButtonControl buttonControl;
     private GameInput input;
     
