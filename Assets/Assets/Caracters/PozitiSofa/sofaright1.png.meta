@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a59900c3aec37f448ac9990660376b51
+guid: 226811ee4312d914093c846d7a3e50ec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6872416703997542761
-    second: Sofaskingame_0
+      213: 2998833552872776221
+    second: sofaright1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,89 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sofaskingame_0
+      name: sofaright1_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 20
-        width: 204
-        height: 324
+        x: 1
+        y: 3
+        width: 36
+        height: 56
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79ef3c95b6540a0a0800000000000000
-      internalID: -6872416703997542761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sofaskingame_1
-      rect:
-        serializedVersion: 2
-        x: 236
-        y: 20
-        width: 204
-        height: 324
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e664ce4f58b89734e97f6fae0acc528b
-      internalID: 835034357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sofaskingame_2
-      rect:
-        serializedVersion: 2
-        x: 470
-        y: 20
-        width: 204
-        height: 324
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b4de2b3062c5e14d969e28e7a328e43
-      internalID: 922374439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sofaskingame_3
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 19
-        width: 204
-        height: 325
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c3205259a4aea74aa171f8e14049b35
-      internalID: -410446233
+      spriteID: d1221835a3ffd9920800000000000000
+      internalID: 2998833552872776221
       vertices: []
       indices: 
       edges: []
@@ -191,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8f1debea3b4bf354098b287f735c1650
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -201,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sofaskingame_0: -6872416703997542761
-      Sofaskingame_1: 835034357
-      Sofaskingame_2: 922374439
-      Sofaskingame_3: -410446233
+      sofaright1_0: 2998833552872776221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

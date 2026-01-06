@@ -1,10 +1,7 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Movement : MonoBehaviour
 {
-    GameInput input;
     public float moveSpeed = 0.01f;
     public float spriteChengSpeed = 0.25f;
     public GameObject interact;
@@ -20,9 +17,6 @@ public class Movement : MonoBehaviour
     void Start()
     {
         _renderer = gameObject.GetComponent<SpriteRenderer>();
-
-        input = new GameInput();
-        input.Enable();
     }
     private void FixedUpdate() {
         time += Time.deltaTime;
@@ -32,12 +26,21 @@ public class Movement : MonoBehaviour
             spriteFrame = (spriteFrame + 1) % up.Length;
         }
 
-        Vector3 move = input.Game.Move.ReadValue<Vector2>();
+        Vector3 move = GetComponent<GameKeybord>().move.ReadValue<Vector2>();
         transform.position += move * moveSpeed;
-        if (move.Equals(Vector3.zero)) spriteFrame = 0;
 
 
-        if (move.x > 0) {
+        if (move.x == 0 && move.y == 0) { 
+            spriteFrame = 0;
+            switch(rotationZ)
+            {
+                case 0: _renderer.sprite = right[spriteFrame]; break;
+                case 90: _renderer.sprite = up[spriteFrame]; break;
+                case 180: _renderer.sprite = left[spriteFrame]; break;
+                case -90: _renderer.sprite = down[spriteFrame]; break;
+            }
+        }
+        else if (move.x > 0) {
             _renderer.sprite = right[spriteFrame];
             rotationZ = 0;
         }

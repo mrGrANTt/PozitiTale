@@ -24,7 +24,7 @@ public static class Vareables
         public Data() : this(1f, 1f) { }
     }
 
-    public static void loadData()
+    public static void loadData() 
     {
         Data newData;
         try {

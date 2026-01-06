@@ -12,10 +12,9 @@ public class KeybordHandler : MonoBehaviour
         input.Enable();
         input.Menu.Cansel.performed += hendleCansel;
     }
-
-    private void hendleCansel (InputAction.CallbackContext ia)
-    {
-        Debug.Log(1);
-        buttonControl.Back();
+    private void OnDisable() {
+        input.Disable();
     }
+
+    private void hendleCansel (InputAction.CallbackContext ia) { buttonControl.Back(); }
 }
