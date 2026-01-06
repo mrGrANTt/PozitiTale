@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GameMenu : MonoBehaviour
 {
-    public GameObject setings, buttons, menu;
+    public GameObject setings, buttons, menu, saveIndecator;
     public GameKeybord gameKeybord;
     public Text screenText;
 
@@ -39,7 +39,10 @@ public class GameMenu : MonoBehaviour
         gameKeybord.openMenu.performed -= CallbackPlay;
         updateScreenText(!Screen.fullScreen);
     }
-    public void Save() { Vareables.saveData(); }
+    public void Save() { 
+        saveIndecator.SetActive(true); 
+        Vareables.saveData();
+    }
     public void Exit() { 
         SceneManager.LoadScene("MainMenu");
         Vareables.saveData();
