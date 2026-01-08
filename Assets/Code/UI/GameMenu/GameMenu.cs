@@ -9,34 +9,38 @@ public class GameMenu : MonoBehaviour
     public GameKeybord gameKeybord;
     public Text screenText;
 
+    private void Start() {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    
     public void CallbackPlay(InputAction.CallbackContext c) { Play(); }
     public void CallbackPause(InputAction.CallbackContext c) { Pause(); }
     public void CallbackBack(InputAction.CallbackContext c) { Back(); }
 
     public void Play() {
-        gameKeybord.openMenu.performed += CallbackPause;
-        gameKeybord.openMenu.performed -= CallbackPlay;
-        gameKeybord.gameObject.GetComponent<Movement>().enabled = true;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        gameKeybord.GameSetup();
         menu.SetActive(false);
     }
-    public void Pause() {
-        gameKeybord.openMenu.performed += CallbackPlay;
-        gameKeybord.openMenu.performed -= CallbackPause;
-        gameKeybord.gameObject.GetComponent<Movement>().enabled = false;
+    public void Pause()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        gameKeybord.MenuSetup();
         menu.SetActive(true);
     }
     public void Back() {
         Vareables.saveData();
         setings.SetActive(false);
         buttons.SetActive(true);
-        gameKeybord.openMenu.performed -= CallbackBack;
-        gameKeybord.openMenu.performed += CallbackPlay;
+        gameKeybord.MenuSetup();
     }
     public void Setings() {
         setings.SetActive(true);
         buttons.SetActive(false);
-        gameKeybord.openMenu.performed += CallbackBack;
-        gameKeybord.openMenu.performed -= CallbackPlay;
+        gameKeybord.SetingsSetup();
         updateScreenText(!Screen.fullScreen);
     }
     public void Save() { 
