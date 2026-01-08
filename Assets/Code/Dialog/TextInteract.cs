@@ -9,7 +9,6 @@ public class TextInteract : MonoBehaviour
         if (g == null) return;
         DialogMain dialog = g.GetComponent<DialogMain>();
         if (dialog != null) {
-            Debug.Log(123);
             dialog.Interact();
         }
     }
@@ -20,7 +19,6 @@ public class TextInteract : MonoBehaviour
         DialogMain dialog = g.GetComponent<DialogMain>();
         if (dialog != null)
         {
-            Debug.Log(321);
             dialog.skip();
         }
     }

@@ -6,7 +6,9 @@ public class DialogMain : MonoBehaviour
 {
     public Text text;
     public GameObject parent;
+    public AudioSource audioSource;
     public float simbolPearSecond = 5;
+    public float soundPeriod = 0.1f;
     public GameKeybord gameKeybord;
 
     public TextEvent beforeText;
@@ -15,6 +17,7 @@ public class DialogMain : MonoBehaviour
 
     private int text_index = -1;
     private float time = 0;
+    private float playSoundTimer = 0;
 
     public void Interact()
     {
@@ -41,17 +44,24 @@ public class DialogMain : MonoBehaviour
 
     private void Update()
     {
-        if (text_index != -1) {
+        if (text_index > -1 && text_index < texts.Length) {
             time += Time.deltaTime;
+            playSoundTimer += Time.deltaTime;
             text.text = texts[text_index].Substring(0, math.min(
                 (int) (time*simbolPearSecond), texts[text_index].Length));
-            if(time * simbolPearSecond >= texts[text_index].Length 
-                && gameKeybord != null && gameKeybord.interact.IsPressed())
+            if(playSoundTimer >= soundPeriod && text.text.Length > 0 
+                && text.text[text.text.Length - 1] != ' '
+                && text.text.Length < texts[text_index].Length)
             {
+                playSoundTimer = 0;
+                audioSource.Play();
+            }
+            if (time * simbolPearSecond >= texts[text_index].Length 
+                && gameKeybord != null && gameKeybord.interact.IsPressed()) {
                 time = 0;
-                if(++text_index >= texts.Length)
+                if (++text_index >= texts.Length)
                 {
-                    if(afterText!= null) afterText.run(this);
+                    if (afterText != null) afterText.run(this);
                     else end();
                 }
             }
