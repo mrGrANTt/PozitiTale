@@ -7,7 +7,9 @@ public class ImageControl : MonoBehaviour
     public Sprite[] textures;
     public float newPlateTime = 10f;
     public float fadeTime = 1f;
+    public AudioSource _audio;
 
+    private bool _isPlayed = false;
     private Image image;
     private float time = -3;
     private int lastPlate = 0;
@@ -39,8 +41,13 @@ public class ImageControl : MonoBehaviour
             Color color;
             if (time <= fadeTime) 
                 color = new Color(1f, 1f, 1f, time/fadeTime);
-            else 
+            else {
                 color = Color.white;
+                if (lastPlate == textures.Length && !_isPlayed) {
+                    _audio.Play();
+                    _isPlayed = true;
+                }
+            }
             image.color = color;
         }
     }

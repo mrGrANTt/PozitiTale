@@ -6,6 +6,8 @@ public static class Vareables
 {
     public static float Sound = 1f;
     public static float Music = 1f;
+    public static bool FirstRun = true;
+    public static bool TalkWith = false;
 
     public static string path = Application.persistentDataPath 
         + "/player.json";
@@ -15,13 +17,17 @@ public static class Vareables
     {
         public float Sound;
         public float Music;
+        public bool FirstRun;
+        public bool TalkWith;
 
-        public Data(float sound, float music)
+        public Data(float sound, float music, bool firstRun, bool talkWith)
         {
             Sound = sound;
             Music = music;
+            FirstRun = firstRun;
+            TalkWith = talkWith;
         }
-        public Data() : this(1f, 1f) { }
+        public Data() : this(1f, 1f, true, false) { }
     }
 
     public static void loadData() 
@@ -38,11 +44,13 @@ public static class Vareables
 
         Sound = newData.Sound;
         Music = newData.Music;
+        FirstRun = newData.FirstRun;
+        TalkWith = newData.TalkWith;
     }
 
     public static void saveData()
     {
-        Data data = new Data(Sound, Music);
+        Data data = new Data(Sound, Music, FirstRun, TalkWith);
         string json = JsonUtility.ToJson(data);
         File.WriteAllText(path, json);
     }
