@@ -10,6 +10,8 @@ public class DialogMain : MonoBehaviour
     public float simbolPearSecond = 5;
     public float soundPeriod = 0.1f;
     public GameKeybord gameKeybord;
+    public bool needMoveOut = false;
+    public float dialogDistance = 0.2f;
 
     public TextEvent beforeText;
     public string[] texts;
@@ -22,11 +24,14 @@ public class DialogMain : MonoBehaviour
     public void Interact()
     {
         if (text_index != -1) return;
-        gameKeybord.DialogSetup();
         if (beforeText != null) { beforeText.run(this); }
         else run();
     }
-    public void skip() { time = texts[text_index].Length/simbolPearSecond; }
+    public void skip()
+    {
+        if (text_index != -1 && text_index < texts.Length) 
+            time = texts[text_index].Length/simbolPearSecond; 
+    }
 
     public void run()
     {

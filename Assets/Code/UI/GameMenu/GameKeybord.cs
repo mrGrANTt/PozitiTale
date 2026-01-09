@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -35,6 +33,7 @@ public class GameKeybord : MonoBehaviour
     // Setup
     public void GameSetup()
     {
+        Debug.Log("GameSetup");
         move.Enable();
         openMenu.performed -= menu.CallbackPlay;
         openMenu.performed += menu.CallbackPause;
@@ -43,6 +42,7 @@ public class GameKeybord : MonoBehaviour
     }
     public void DialogSetup()
     {
+        Debug.Log("DialogSetup");
         move.Disable();
         openMenu.performed -= menu.CallbackPause;
         interact.performed -= textInteract.tryInteract;
@@ -50,13 +50,15 @@ public class GameKeybord : MonoBehaviour
     }
     public void MenuSetup()
     {
-       move.Disable();
+        Debug.Log("MenuSetup");
+        move.Disable();
         openMenu.performed -= menu.CallbackPause;
         openMenu.performed -= menu.CallbackBack;
         openMenu.performed += menu.CallbackPlay;
     }
     public void SetingsSetup()
     {
+        Debug.Log("SetingsSetup");
         openMenu.performed -= menu.CallbackPlay;
         openMenu.performed += menu.CallbackBack;
     }
