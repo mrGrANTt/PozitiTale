@@ -14,12 +14,13 @@ public class DialogMain : MonoBehaviour
     public float dialogDistance = 0.2f;
 
     public TextEvent beforeText;
+    [TextArea()]
     public string[] texts;
     public TextEvent afterText;
 
-    private int text_index = -1;
-    private float time = 0;
-    private float playSoundTimer = 0;
+    protected int text_index = -1;
+    protected float time = 0;
+    protected float playSoundTimer = 0;
 
     public void Interact()
     {
