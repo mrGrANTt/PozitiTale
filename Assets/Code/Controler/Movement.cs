@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
@@ -28,6 +29,8 @@ public class Movement : MonoBehaviour
 
         Vector3 move = GetComponent<GameKeybord>().move.ReadValue<Vector2>();
         transform.position += move * moveSpeed;
+        _renderer.sortingOrder = (int)(-transform.position.y * 100);
+
 
 
         if (move.x == 0 && move.y == 0) { 
