@@ -27,6 +27,7 @@ public class DialogMainKV : DialogMain
                 }
                 if (++text_index >= texts.Length)
                 {
+                    dialogState = 2;
                     if (afterText != null) afterText.run(this);
                     else end();
                 }

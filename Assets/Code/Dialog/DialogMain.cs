@@ -17,6 +17,7 @@ public class DialogMain : MonoBehaviour
     [TextArea()]
     public string[] texts;
     public TextEvent afterText;
+    public int dialogState = 0;
 
     protected int text_index = -1;
     protected float time = 0;
@@ -25,6 +26,7 @@ public class DialogMain : MonoBehaviour
     public void Interact()
     {
         if (text_index != -1) return;
+        dialogState = 1;
         if (beforeText != null) { beforeText.run(this); }
         else run();
     }
@@ -46,6 +48,7 @@ public class DialogMain : MonoBehaviour
         parent.SetActive(false);
         text_index = -1;
         gameKeybord.GameSetup();
+        dialogState = 0;
     }
 
     private void Update()
@@ -67,6 +70,7 @@ public class DialogMain : MonoBehaviour
                 time = 0;
                 if (++text_index >= texts.Length)
                 {
+                    dialogState = 2;
                     if (afterText != null) afterText.run(this);
                     else end();
                 }
