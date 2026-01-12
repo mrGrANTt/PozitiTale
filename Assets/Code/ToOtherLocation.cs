@@ -8,6 +8,7 @@ public class ToOtherLocation : MonoBehaviour
     public float fadeTime = 1;
     public GameKeybord keybord;
     public int rotAfterTp;
+    public bool neadTalk = false;
 
     private float time;
     private bool tp = false;
@@ -15,10 +16,13 @@ public class ToOtherLocation : MonoBehaviour
     private void Start() { time = -fadeTime; }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player"){
-            this.collision = collision;
-            tp = true;
-            keybord.move.Disable();
+        if ((neadTalk && Vareables.TalkWith) || !neadTalk)
+        {
+            if (collision.tag == "Player"){
+                this.collision = collision;
+                tp = true;
+                keybord.move.Disable();
+            }
         }
     }
     private void Update()
