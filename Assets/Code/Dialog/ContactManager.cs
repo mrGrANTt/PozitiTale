@@ -6,8 +6,10 @@ public class ContactManager : MonoBehaviour
 
     private void Start() { contact = null; }
     private void OnTriggerEnter2D(Collider2D other) {
-        if(other.tag != "Untalkable" && contact == null)
-            contact = other.gameObject; 
+        if(other.tag != "Untalkable" && contact == null){
+            contact = other.gameObject;
+            Debug.Log(contact);
+        }
     }
     private void OnTriggerExit2D(Collider2D other) { 
         if (contact == other.gameObject)

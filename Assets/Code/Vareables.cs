@@ -18,14 +18,12 @@ public static class Vareables
         public float Sound;
         public float Music;
         public bool FirstRun;
-        public bool TalkWith;
 
         public Data(float sound, float music, bool firstRun, bool talkWith)
         {
             Sound = sound;
             Music = music;
             FirstRun = firstRun;
-            TalkWith = talkWith;
         }
         public Data() : this(1f, 1f, true, false) { }
     }
@@ -45,7 +43,6 @@ public static class Vareables
         Sound = newData.Sound;
         Music = newData.Music;
         FirstRun = newData.FirstRun;
-        TalkWith = newData.TalkWith;
     }
 
     public static void saveData()

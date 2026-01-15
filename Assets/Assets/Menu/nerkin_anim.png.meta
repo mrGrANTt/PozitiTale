@@ -1,0 +1,1732 @@
+fileFormatVersion: 2
+guid: d566dd0615ad375459821c4d3ad6c441
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5658753965658361263
+    second: nerkin_anim_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nerkin_anim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152b995ef311871b0800000000000000
+      internalID: -5658753965658361263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b191004b6e75243b39dc9862f50d82
+      internalID: -1694539563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_2
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1609925390789a544bf41b6a8088c083
+      internalID: -1370449112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31db803a62d8fe4991ceafb5588ae76
+      internalID: 152942676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_4
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5c012227eea054da720e2eaa63d99e
+      internalID: 1218374332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_5
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38f9415533afab4993f425a7da59141
+      internalID: -6803775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_6
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d972b031fa993c9429c353625373b6bf
+      internalID: -1026957079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_7
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd482bf062f5ea4ab14202d0c537dc4
+      internalID: 397056998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_8
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe6682b900da424caf57c8dd7442b91
+      internalID: -1653739510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_9
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978dbde6fbd3a4a4a88bc47a038ee5d3
+      internalID: 619648200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_10
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a841f4ed492d215489ec6262c45f40a0
+      internalID: -711919102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_11
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1720c97243130448292a7fbe563c20
+      internalID: -1835482764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_12
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79129abcf1ef29499b52db886b7ac31
+      internalID: 864114471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_13
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d072aae89a5a36f4d93c9f27f44c2420
+      internalID: 1951080374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_14
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bca05821c9e2f549b3e50f8d1e74201
+      internalID: -1856466712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_15
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81702b3bf3fc27443ad8131a21690f0b
+      internalID: 138456074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_16
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a515e78ee3d3f4bb87bd5e98ffc75f
+      internalID: -951178228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_17
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e27b9721509ba42897aa5cf7bd55fe
+      internalID: 1576536163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_18
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae509f0ffe0bc9448e9ca93203747f4
+      internalID: -865549435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_19
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa996d410977924eafd7f811ff728a0
+      internalID: -1731693020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_20
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c293a77afdd152447880589c1f71dc5c
+      internalID: -562891407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_21
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41f1039f7deda946a14c1fd0eb7517a
+      internalID: -1488801608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_22
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9987056335acdeb49b74ebe5b7231284
+      internalID: 341102208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_23
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dbc4f1729e7d14999289cb8e21a491
+      internalID: 580115777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_24
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da6dd341980db24b940de7fd58ae064
+      internalID: 1608888131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_25
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81e826f66b558d4280a155eb3711a5a
+      internalID: 2071785040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_26
+      rect:
+        serializedVersion: 2
+        x: 4212
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccf9f86290772c438b52daec3659636
+      internalID: 1441375361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_27
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08ac78ce3981284891bed4e891adea6
+      internalID: 1302184866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_28
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0fae7ddf417e244905613e324b7c98
+      internalID: 835754604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_29
+      rect:
+        serializedVersion: 2
+        x: 4698
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425594d134bf48a488ab8e71e5bd5dd8
+      internalID: -1566285671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_30
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677cc1a7476fe6346913ef20cc2fb3fb
+      internalID: 1506785096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_31
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a44f934e9462845b30da94c6a07433
+      internalID: 246910674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_32
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25415d78f8006454193947e9a4a2ca76
+      internalID: -883723014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_33
+      rect:
+        serializedVersion: 2
+        x: 5346
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d89f4273e7d1941921997409318651
+      internalID: -1812740560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_34
+      rect:
+        serializedVersion: 2
+        x: 5508
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac91f3482f7e6b14f884609cfa2f7b2d
+      internalID: 1751306076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_35
+      rect:
+        serializedVersion: 2
+        x: 5670
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d340fe82252096d42aefa7127bb60e3b
+      internalID: 623306430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_36
+      rect:
+        serializedVersion: 2
+        x: 5832
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0299353287cfa484387688e1dda6625b
+      internalID: -1965989022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_37
+      rect:
+        serializedVersion: 2
+        x: 5994
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93601db88c3f0f468811ed589cbd2a8
+      internalID: -1742201699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_38
+      rect:
+        serializedVersion: 2
+        x: 6156
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f779ade776846a542831bbcd89cd8364
+      internalID: -336184106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_39
+      rect:
+        serializedVersion: 2
+        x: 6318
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1f7e9acfb23514684ce4ef5db84a8c
+      internalID: -789887924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_40
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076214ee2de3af948bc8e4e1f6f3fb65
+      internalID: 621933877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_41
+      rect:
+        serializedVersion: 2
+        x: 6642
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd9639aec3b1d34fab198618f7e2b58
+      internalID: 240729827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_42
+      rect:
+        serializedVersion: 2
+        x: 6804
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3901538cdf0e70f4ba93a454d928395e
+      internalID: 1656827912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_43
+      rect:
+        serializedVersion: 2
+        x: 6966
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e5b049b9842af4ba92556607fd8ea0
+      internalID: 1436905577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_44
+      rect:
+        serializedVersion: 2
+        x: 7128
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504524cc401f11a4c83f948931e6cdd7
+      internalID: -423671238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_45
+      rect:
+        serializedVersion: 2
+        x: 7290
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7207ea830561b194bbd3f205d883f653
+      internalID: 357887113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_46
+      rect:
+        serializedVersion: 2
+        x: 7452
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc2a3821be441c45989b4bb6c4c7457
+      internalID: 1546843962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_47
+      rect:
+        serializedVersion: 2
+        x: 7614
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9282b3811be86444caaf142e1845b60a
+      internalID: 1812368537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_48
+      rect:
+        serializedVersion: 2
+        x: 7776
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14af74b0ccf048f44911a88a123cfb4c
+      internalID: 1722766052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_49
+      rect:
+        serializedVersion: 2
+        x: 7938
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d183684fbcbda4b87e2ba170674983
+      internalID: -37712219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_50
+      rect:
+        serializedVersion: 2
+        x: 8100
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adf992443da4fa4b8460a8c64e67d54
+      internalID: 882515248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_51
+      rect:
+        serializedVersion: 2
+        x: 8262
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07667707a42fb94c87869aaa10c8060
+      internalID: 168756173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_52
+      rect:
+        serializedVersion: 2
+        x: 8424
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd93a457efb01e24eabd92ab61225383
+      internalID: 773318946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_53
+      rect:
+        serializedVersion: 2
+        x: 8586
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d27513b36098046b19706885f10b44
+      internalID: 1185360258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_54
+      rect:
+        serializedVersion: 2
+        x: 8748
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff23b8c45a315d4994d3441bacc3834
+      internalID: -1042223603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_55
+      rect:
+        serializedVersion: 2
+        x: 8910
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d243b16a67ddf46a59fb81fe802667
+      internalID: -1476178474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_56
+      rect:
+        serializedVersion: 2
+        x: 9072
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d009eca970516c47860d49f155b5d4d
+      internalID: 1078960471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_57
+      rect:
+        serializedVersion: 2
+        x: 9234
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41c05521a716894e8b0cc20ef322d7b
+      internalID: 1262029835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_58
+      rect:
+        serializedVersion: 2
+        x: 9396
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c4335aa33c8d34dbf0520237752ef2
+      internalID: 766715059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_59
+      rect:
+        serializedVersion: 2
+        x: 9558
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080e4982f5cb7d4408ef758672299bfb
+      internalID: 1199522704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_60
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f51c3c623e8604e85e63e8a142725a
+      internalID: 1089056690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_61
+      rect:
+        serializedVersion: 2
+        x: 9882
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716dc4f18e8eb934a9c393f7a9651e89
+      internalID: 1758271299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_62
+      rect:
+        serializedVersion: 2
+        x: 10044
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bae08346ed5f74499cdd5b8d0bf8a4f
+      internalID: -1064877309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_63
+      rect:
+        serializedVersion: 2
+        x: 10206
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9e1352a51d9b447bd9253e4a1d1472
+      internalID: -1281269644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_64
+      rect:
+        serializedVersion: 2
+        x: 10368
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f703365d62b06bb42b118adbb5f4b1d8
+      internalID: -944893092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_65
+      rect:
+        serializedVersion: 2
+        x: 10530
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28738462e02050e49a25dd3500605301
+      internalID: -1685723959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_66
+      rect:
+        serializedVersion: 2
+        x: 10692
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5473c206c3a76b4aa61b6b979412fd6
+      internalID: -1493291416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_67
+      rect:
+        serializedVersion: 2
+        x: 10854
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48922af59eae39f4d82c806566179028
+      internalID: 1706139970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_68
+      rect:
+        serializedVersion: 2
+        x: 11016
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f3823f83383f348987cf248df3293f
+      internalID: -1429188751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerkin_anim_69
+      rect:
+        serializedVersion: 2
+        x: 11178
+        y: 0
+        width: 162
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ddaa3d73874104f9a7a740260f0ab2
+      internalID: 1652049562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 07abd9f969544ce4d93b16b65706a98f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":70.0,"y":1.0},"gridSpriteSize":{"x":162.0,"y":120.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      nerkin_anim_0: -5658753965658361263
+      nerkin_anim_1: -1694539563
+      nerkin_anim_10: -711919102
+      nerkin_anim_11: -1835482764
+      nerkin_anim_12: 864114471
+      nerkin_anim_13: 1951080374
+      nerkin_anim_14: -1856466712
+      nerkin_anim_15: 138456074
+      nerkin_anim_16: -951178228
+      nerkin_anim_17: 1576536163
+      nerkin_anim_18: -865549435
+      nerkin_anim_19: -1731693020
+      nerkin_anim_2: -1370449112
+      nerkin_anim_20: -562891407
+      nerkin_anim_21: -1488801608
+      nerkin_anim_22: 341102208
+      nerkin_anim_23: 580115777
+      nerkin_anim_24: 1608888131
+      nerkin_anim_25: 2071785040
+      nerkin_anim_26: 1441375361
+      nerkin_anim_27: 1302184866
+      nerkin_anim_28: 835754604
+      nerkin_anim_29: -1566285671
+      nerkin_anim_3: 152942676
+      nerkin_anim_30: 1506785096
+      nerkin_anim_31: 246910674
+      nerkin_anim_32: -883723014
+      nerkin_anim_33: -1812740560
+      nerkin_anim_34: 1751306076
+      nerkin_anim_35: 623306430
+      nerkin_anim_36: -1965989022
+      nerkin_anim_37: -1742201699
+      nerkin_anim_38: -336184106
+      nerkin_anim_39: -789887924
+      nerkin_anim_4: 1218374332
+      nerkin_anim_40: 621933877
+      nerkin_anim_41: 240729827
+      nerkin_anim_42: 1656827912
+      nerkin_anim_43: 1436905577
+      nerkin_anim_44: -423671238
+      nerkin_anim_45: 357887113
+      nerkin_anim_46: 1546843962
+      nerkin_anim_47: 1812368537
+      nerkin_anim_48: 1722766052
+      nerkin_anim_49: -37712219
+      nerkin_anim_5: -6803775
+      nerkin_anim_50: 882515248
+      nerkin_anim_51: 168756173
+      nerkin_anim_52: 773318946
+      nerkin_anim_53: 1185360258
+      nerkin_anim_54: -1042223603
+      nerkin_anim_55: -1476178474
+      nerkin_anim_56: 1078960471
+      nerkin_anim_57: 1262029835
+      nerkin_anim_58: 766715059
+      nerkin_anim_59: 1199522704
+      nerkin_anim_6: -1026957079
+      nerkin_anim_60: 1089056690
+      nerkin_anim_61: 1758271299
+      nerkin_anim_62: -1064877309
+      nerkin_anim_63: -1281269644
+      nerkin_anim_64: -944893092
+      nerkin_anim_65: -1685723959
+      nerkin_anim_66: -1493291416
+      nerkin_anim_67: 1706139970
+      nerkin_anim_68: -1429188751
+      nerkin_anim_69: 1652049562
+      nerkin_anim_7: 397056998
+      nerkin_anim_8: -1653739510
+      nerkin_anim_9: 619648200
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

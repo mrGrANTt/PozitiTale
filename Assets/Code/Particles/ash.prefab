@@ -118,6 +118,7 @@ MonoBehaviour:
   texts:
   - "\u042D\u0442\u043E... \u043F\u044B\u0442\u043B..."
   afterText: {fileID: 0}
+  dialogState: 0
 --- !u!114 &107688834110170638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,15 +169,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.17515987}
+  m_Offset: {x: 0.04762447, y: -0.10588783}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.54, y: 0.54}
+    oldSize: {x: 0.42, y: 0.29}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.54, y: 0.18968022}
+  m_Size: {x: 0.44475102, y: 0.13772619}
   m_EdgeRadius: 0

@@ -2132,6 +2132,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioConection
   isMusic: 0
   isSound: 1
+  fadeTime: 0.5
+  startFade: 0
+  fadeIn: 0
 --- !u!1 &1307036193
 GameObject:
   m_ObjectHideFlags: 0
@@ -2908,6 +2911,7 @@ MonoBehaviour:
   setings: {fileID: 1930671520}
   buttons: {fileID: 1478632613}
   screenText: {fileID: 560535146}
+  _audio: {fileID: 1940789717}
 --- !u!114 &1560849343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3536,6 +3540,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioConection
   isMusic: 1
   isSound: 0
+  fadeTime: 1
+  startFade: 1
+  fadeIn: 1
 --- !u!1 &1965439929
 GameObject:
   m_ObjectHideFlags: 0

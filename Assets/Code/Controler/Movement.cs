@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
     public float moveSpeed = 0.01f;
     public float spriteChengSpeed = 0.25f;
     public GameObject interact;
+    public EndGame end;
     public Sprite[] up;
     public Sprite[] down;
     public Sprite[] left;
@@ -27,7 +28,7 @@ public class Movement : MonoBehaviour
             spriteFrame = (spriteFrame + 1) % up.Length;
         }
 
-        Vector3 move = GetComponent<GameKeybord>().move.ReadValue<Vector2>();
+        Vector3 move = end.play ? new Vector3(1,0,0) : GetComponent<GameKeybord>().move.ReadValue<Vector2>();
         transform.position += move * moveSpeed;
         _renderer.sortingOrder = (int)(-transform.position.y * 100);
 

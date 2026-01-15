@@ -18,6 +18,9 @@ public class SofaWork : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         _transform = GetComponent<RectTransform>();
         startPos = _transform.position;
         image = GetComponent<RawImage>();

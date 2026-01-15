@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -6,16 +7,25 @@ public class ButtonControl : MonoBehaviour
 {
     public GameObject setings, buttons;
     public Text screenText;
+    public AudioConection _audio;
 
     public void Play() {
-        if (Vareables.FirstRun) NewGame();
-        else SceneManager.LoadScene("Game"); 
+        StartCoroutine(fadeMusic(Vareables.FirstRun));
     }
-    public void NewGame() { 
-        SceneManager.LoadScene("Comics");
+    public void NewGame() {
         Vareables.FirstRun = false;
         Vareables.TalkWith = false;
         Vareables.saveData();
+        StartCoroutine(fadeMusic(true));
+    }
+    private IEnumerator fadeMusic(bool comics)
+    {
+        _audio.Toggle();
+        yield return new WaitForSeconds(_audio.fadeTime);
+        Vareables.FirstRun = false;
+        Vareables.saveData();
+        if (comics) SceneManager.LoadScene("Comics");
+        else SceneManager.LoadScene("Game");
     }
     public void Setings() {
         setings.SetActive(true);

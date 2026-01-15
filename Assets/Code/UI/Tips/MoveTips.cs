@@ -14,7 +14,7 @@ public class MoveTips : MonoBehaviour
     private void Update()
     {
         time += Time.deltaTime;
-        GetComponent<RectTransform>().localPosition = new Vector2(0, math.min(LastY, -3210 + time * speed));
+        GetComponent<RectTransform>().localPosition = new Vector2(0, math.min(LastY, -3450 + time * speed));
         if (time > finishTime) SceneManager.LoadScene("MainMenu");
     }
 }
