@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class DialogMainWG : DialogMain
 {
+    public AudioSource bam;
     private void Update()
     {
         if (text_index > -1 && text_index < texts.Length) {
@@ -24,6 +25,7 @@ public class DialogMainWG : DialogMain
                 if (++text_index >= texts.Length)
                 {
                     dialogState = 2;
+                    bam.Play();
                     if (afterText != null) afterText.run(this);
                     else end();
                 }
